@@ -15,5 +15,18 @@ module.exports = {
         accessToken: CONTENTFUL_ACCESS_TOKEN,
       },
     },
+    {
+      resolve: `gatsby-plugin-react-helmet`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
+        display: `standalone`,
+        icon: `src/images/logo.png`,
+      },
+    },
+    `gatsby-plugin-styled-components`,
   ],
 };

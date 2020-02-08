@@ -68,7 +68,6 @@ export default () => {
       <StyledMain>
         <div>
           <h1>{`// ${title}`}</h1>
-          <h2>{`// ${email}`}</h2>
           <Logo src={url} alt={description} />
         </div>
       </StyledMain>
